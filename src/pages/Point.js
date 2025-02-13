@@ -668,6 +668,8 @@ export default function Point() {
                     <>
                       <Select.Option value={"totalenergyactiveimport"}>totalenergyactiveimport</Select.Option>
                       <Select.Option value={"totalenergyactiveexport"}>totalenergyactiveexport</Select.Option>
+                      <Select.Option value={"totalenergyapparentimport"}>totalenergyapparentimport</Select.Option>
+                      <Select.Option value={"totalenergyreactiveimport"}>totalenergyreactiveimport</Select.Option>
                     </>
                   ) : activeButton === 2 ? (
                     <Select.Option value={"volumewater"}>volumewater</Select.Option>
